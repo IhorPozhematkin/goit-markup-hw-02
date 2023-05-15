@@ -43,8 +43,10 @@ body {
   text-decoration-color: #404bbf;
   border-radius: 2px;
 }
-.list-address .link-address {
+.address {
   font-style: normal;
+}
+.list-address .link-address {
   color: #434455;
 }
 .list-address .link-address:hover,
@@ -67,7 +69,12 @@ body {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -84,8 +91,12 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.sectionfour-studio {
+  background: #f4f4fd;
 }
 .titlethree-skills {
   font-weight: 500;
@@ -94,20 +105,20 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.sectionfour-studio {
-  background: #f4f4fd;
-}
 .titlethree-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .titleone-hidden {
   visibility: hidden;
 }
 .button-portfolio {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -127,12 +138,15 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
 }
-.titlethree-activites {
+.titletwo-activites {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.text{
+  color: #434455;
 }
 .footer {
   background: #2e2f42;
