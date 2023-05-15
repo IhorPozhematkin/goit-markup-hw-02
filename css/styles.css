@@ -98,9 +98,7 @@ body {
 .sectionfour-studio {
   background: #f4f4fd;
 }
-.list-team {
-  background-color: #ffffff;
-}
+
 .titlethree-skills {
   font-weight: 500;
   font-size: 20px;
@@ -156,4 +154,7 @@ body {
 }
 .color-logo-footer {
   color: #f4f4fd;
+}
+.element-list-team {
+  background-color: #ffffff;
 }
