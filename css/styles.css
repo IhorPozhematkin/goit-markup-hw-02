@@ -1,78 +1,60 @@
 :root {
   --background: #ffffff;
+  --color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color);
   background: var(--background);
 }
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+.link {
   text-decoration: none;
 }
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.menu a {
-  font-weight: 500;
-  color: #2e2f42;
-  text-decoration: none;
+.list {
   list-style: none;
 }
-.menu a:hover,
-.menu a:focus {
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.color-logo-header {
+  color: #2e2f42;
+}
+.list-menu .link-menu {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.list-menu .link-menu:hover,
+.list-menu .link-menu:focus {
   color: #404bbf;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: #404bbf;
   border-radius: 2px;
 }
-.menu,
-.ourcontacts,
-.about-studio,
-.whatare,
-.employees {
-  list-style: none;
-  list-style-type: none;
-}
-.ourcontacts a {
-  text-decoration: none;
-  color: #434455;
+.list-address .link-address {
   font-style: normal;
+  color: #434455;
 }
-.ourcontacts a:hover,
-.ourcontacts a:focus {
+.list-address .link-address:hover,
+.list-address .link-address:focus {
   color: #404bbf;
 }
-.footer {
-  background: #2e2f42;
-  color: #f4f4fd;
-}
-.effect-sol {
+.sectionone-studio {
   background: #2e2f42;
 }
-.title-studio {
+.titleone-studio {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -94,17 +76,10 @@ body {
 .button-studio:focus {
   background: #404bbf;
 }
-.about-studio h3,
-.employees h3,
-.list-firstline h3,
-.list-secondline h3,
-.list-thirdline h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
+.titletwo-hidden {
+  visibility: hidden;
 }
-.title-sections {
+.titletwo {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -112,44 +87,57 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.ourteam {
-  list-style-type: none;
-  background: #f4f4fd;
-}
-.list-buttons,
-.list-firstline,
-.list-secondline,
-.list-thirdline {
-  list-style: none;
-  list-style-type: none;
-}
-.buttons-portfolio {
-  cursor: pointer;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+.titlethree-skills {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.sectionfour-studio {
+  background: #f4f4fd;
+}
+.titlethree-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.titleone-hidden {
+  visibility: hidden;
+}
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
-.buttons-portfolio:hover,
-.buttons-portfolio:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   background: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
 }
-.title-hiden {
-  visibility: hidden;
-}
-.color-logo {
+.titlethree-activites {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.footer {
+  background: #2e2f42;
+  color: #f4f4fd;
 }
 .color-logo-footer {
   color: #f4f4fd;
-}
-.address {
-  font-style: normal;
 }
