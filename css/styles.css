@@ -38,10 +38,6 @@ body {
 .list-menu .link-menu:hover,
 .list-menu .link-menu:focus {
   color: #404bbf;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #404bbf;
-  border-radius: 2px;
 }
 .address {
   font-style: normal;
@@ -145,8 +141,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.text {
-  color: #434455;
+.element-list-team {
+  background-color: #ffffff;
 }
 .footer {
   background: #2e2f42;
@@ -154,7 +150,4 @@ body {
 }
 .color-logo-footer {
   color: #f4f4fd;
-}
-.element-list-team {
-  background-color: #ffffff;
 }
