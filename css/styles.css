@@ -18,6 +18,9 @@ body {
 .list {
   list-style: none;
 }
+.text {
+  color: var(--color);
+}
 .link-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
